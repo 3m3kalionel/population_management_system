@@ -1,0 +1,43 @@
+{
+  "name": "population_management_system",
+  "version": "1.0.0",
+  "description": "Backend to manage location populations",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "NODE_ENV=test nyc mocha --require babel-register ./server/tests/*.test.js --timeout 10000 --exit"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "nodemon": "^1.18.10",
+    "nyc": "^14.0.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.22",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "morgan": "^1.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3m3kalionel/population_management_system.git"
+  },
+  "keywords": [
+    "population",
+    "management",
+    "population"
+  ],
+  "author": "3m3kalion3l",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3m3kalionel/population_management_system/issues"
+  },
+  "homepage": "https://github.com/3m3kalionel/population_management_system#readme"
+}
