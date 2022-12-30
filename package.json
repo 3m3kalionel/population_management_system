@@ -8,7 +8,7 @@
     "test": "NODE_ENV=test nyc mocha --require babel-register ./server/tests/*.test.js --timeout 10000 --exit"
   },
   "devDependencies": {
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "nodemon": "^1.18.10",
     "nyc": "^14.0.0",
     "should": "^13.2.3",
